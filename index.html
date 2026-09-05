@@ -63,7 +63,7 @@
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "15:00" }
   ],
   "sameAs": [
-    "https://www.google.com/maps/place/?q=place_id:DEINE_GOOGLE_PLACE_ID",
+    "https://www.google.com/maps?cid=6944456045790561865",
     "https://www.instagram.com/panteakosmetik/",
     "https://www.facebook.com/share/1Dh1jf7oke/?mibextid=wwXIfr",
     "https://www.tiktok.com/@panteakozmetik",
@@ -117,7 +117,26 @@
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="#home">✨ Pantea <span>Kosmetik</span></a>
+    <a class="navbar-brand" href="#home">
+      <svg class="navbar-logo" viewBox="0 0 400 110" role="img" aria-label="Pantea Kosmetik">
+        <defs>
+          <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#eecf83"/>
+            <stop offset="35%" stop-color="#c9a15a"/>
+            <stop offset="70%" stop-color="#a3742f"/>
+            <stop offset="100%" stop-color="#e6c789"/>
+          </linearGradient>
+        </defs>
+        <text x="200" y="52" text-anchor="middle"
+          font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+          font-weight="600" font-size="46" letter-spacing="6" fill="url(#goldGrad)">PANTEA</text>
+        <line x1="15" y1="76" x2="128" y2="76" stroke="#b8933f" stroke-width="1.5"/>
+        <text x="200" y="82" text-anchor="middle"
+          font-family="'Poppins', Arial, sans-serif"
+          font-weight="600" font-size="16" letter-spacing="5" fill="url(#goldGrad)">KOSMETIK</text>
+        <line x1="272" y1="76" x2="385" y2="76" stroke="#b8933f" stroke-width="1.5"/>
+      </svg>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -234,8 +253,8 @@
       <h2 class="section-title">Das sagen unsere Kunden auf Google</h2>
       <div id="aggregateRatingBox" class="d-inline-flex align-items-center gap-2 mt-2">
         <span class="stars">★★★★★</span>
-        <span class="fw-semibold" id="aggRatingValue">–</span>
-        <span class="text-muted">· <span id="aggRatingCount">auf Google</span></span>
+        <span class="fw-semibold" id="aggRatingValue">5</span>
+        <span class="text-muted">Sterne · <span id="aggRatingCount">auf Google</span></span>
       </div>
     </div>
 
@@ -256,10 +275,10 @@
     </div>
 
     <div class="text-center mt-4" data-reveal>
-      <a href="https://search.google.com/local/writereview?placeid=DEINE_GOOGLE_PLACE_ID" target="_blank" rel="noopener" class="btn btn-outline-dark me-2">
+      <a href="https://www.google.com/maps?cid=6944456045790561865" target="_blank" rel="noopener" class="btn btn-outline-dark me-2">
         <i class="bi bi-star-fill me-1 text-warning"></i>Bewertung hinterlassen
       </a>
-      <a href="https://www.google.com/maps/place/?q=place_id:DEINE_GOOGLE_PLACE_ID" target="_blank" rel="noopener" class="btn btn-google">
+      <a href="https://www.google.com/maps?cid=6944456045790561865" target="_blank" rel="noopener" class="btn btn-google">
         <i class="bi bi-google me-1"></i>Alle Bewertungen auf Google ansehen
       </a>
     </div>
@@ -307,13 +326,13 @@
           <a href="https://www.instagram.com/panteakosmetik/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
           <a href="https://www.facebook.com/share/1Dh1jf7oke/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
           <a href="https://www.tiktok.com/@panteakozmetik" target="_blank" rel="noopener" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-          <a href="https://www.google.com/maps/place/?q=place_id:DEINE_GOOGLE_PLACE_ID" target="_blank" rel="noopener" aria-label="Google Maps"><i class="bi bi-google"></i></a>
+          <a href="https://www.google.com/maps?cid=6944456045790561865" target="_blank" rel="noopener" aria-label="Google Maps"><i class="bi bi-google"></i></a>
           <a href="https://trea.tw/CxvAgS8Vir8xBcfVV" target="_blank" rel="noopener" aria-label="Treatwell"><i class="bi bi-calendar2-heart"></i></a>
         </div>
       </div>
       <div class="col-lg-7" data-reveal>
         <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
-          <iframe src="https://www.google.com/maps?q=Siebertgasse+36,+1120+Wien&output=embed" title="Standort Pantea Kosmetik" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps?q=48.1822904,16.3447637(Pantea+Kosmetik)&z=17&output=embed" title="Standort Pantea Kosmetik" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

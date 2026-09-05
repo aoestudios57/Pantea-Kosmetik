@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 110" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Pantea Kosmetik</title>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eecf83"/>
+      <stop offset="35%" stop-color="#c9a15a"/>
+      <stop offset="70%" stop-color="#a3742f"/>
+      <stop offset="100%" stop-color="#e6c789"/>
+    </linearGradient>
+  </defs>
+  <text x="200" y="52" text-anchor="middle"
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+    font-weight="600" font-size="46" letter-spacing="6" fill="url(#goldGrad)">PANTEA</text>
+  <line x1="15" y1="76" x2="128" y2="76" stroke="#b8933f" stroke-width="1.5"/>
+  <text x="200" y="82" text-anchor="middle"
+    font-family="'Poppins', Arial, sans-serif"
+    font-weight="600" font-size="16" letter-spacing="5" fill="url(#goldGrad)">KOSMETIK</text>
+  <line x1="272" y1="76" x2="385" y2="76" stroke="#b8933f" stroke-width="1.5"/>
+</svg>

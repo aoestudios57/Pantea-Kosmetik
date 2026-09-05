@@ -11,7 +11,7 @@ const CONFIG = {
 
   // Deine echte Google-Gesamtbewertung (siehst du oben auf deinem Google-Unternehmensprofil).
   // Wird angezeigt, solange kein API-Key gesetzt ist bzw. bis die Live-Abfrage sie ersetzt.
-  fallbackRatingValue: "–",
+  fallbackRatingValue: "5",
   fallbackRatingCount: "auf Google",
 
   // Nur echte 4- und 5-Sterne-Bewertungen anzeigen (gilt für den API-Modus)
@@ -245,7 +245,7 @@ function initGoogleReviews(){
   document.getElementById("aggRatingValue").textContent = CONFIG.fallbackRatingValue;
   document.getElementById("aggRatingCount").textContent = CONFIG.fallbackRatingCount;
   document.getElementById("heroRatingText").textContent =
-    `${CONFIG.fallbackRatingValue} · ${CONFIG.fallbackRatingCount}`;
+    `${CONFIG.fallbackRatingValue} Sterne · ${CONFIG.fallbackRatingCount}`;
 
   // 2) Optional: falls API-Key + Place ID gesetzt sind, live von Google nachladen
   //    und die manuellen Karten ersetzen, sobald die Antwort da ist.

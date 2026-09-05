@@ -43,8 +43,14 @@ h1,h2,h3,.navbar-brand{
   font-weight:700;
   font-size:1.4rem;
   color:var(--dark) !important;
+  padding:0;
 }
 .navbar-brand span{color:var(--accent);}
+.navbar-logo{
+  height:52px;
+  width:auto;
+  display:block;
+}
 .nav-link{
   color:var(--dark) !important;
   font-weight:500;
@@ -82,7 +88,7 @@ h1,h2,h3,.navbar-brand{
 /* ===== Hero ===== */
 .hero{
   min-height:100vh;
-  padding-top:90px;
+  padding-top:95px;
   background:
     radial-gradient(circle at 85% 15%, rgba(230,179,185,.35), transparent 45%),
     radial-gradient(circle at 10% 90%, rgba(201,161,90,.25), transparent 45%),
@@ -256,5 +262,5 @@ footer{
 
 @media (max-width:991.98px){
   .section-title{font-size:1.7rem;}
-  .hero{padding-top:110px;}
+  .hero{padding-top:115px;}
 }
