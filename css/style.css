@@ -11,11 +11,17 @@
 
 *{scroll-behavior:smooth;}
 
+html, body{
+  overflow-x:hidden;
+  max-width:100%;
+  touch-action:pan-y;
+}
+
 body{
   font-family:'Poppins',sans-serif;
   color:var(--dark);
   background:var(--bg);
-  overflow-x:hidden;
+  position:relative;
 }
 
 h1,h2,h3,.navbar-brand{
